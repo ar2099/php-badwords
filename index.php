@@ -30,7 +30,7 @@ La domanda diretta a  Joshua riguardava il futuro del connazionale  campione  Ty
 Aj e  Fury avevano trovato un accordo  interpersonale per un match lo scorso anno  poi  il destino ha voluto che  Joshua  rimanesse senza titoli  e  Tyson ancora prima del  successo  su  Whyte  iniziasse a pensare  alla pensione.
  Al momento, Joshua è completamente concentrato  sulla rivincita con Usyk ma in caso di successo non esclude che   Fury potrebbe essere ancora  interessato  ad  onorare il loro accordo verbale di scontrarsi sul ring.";
  $lunghezza = strlen($testo);
- $parolaCensurare = "Joshua";
+ $parolaCensurare = $_GET["nome"];
  $testoCensurato = str_replace($parolaCensurare, "***", $testo);
  $lunghezzaCensura = strlen($testoCensurato);
 
